@@ -1,0 +1,1 @@
+require('./tesseract')('http://localhost:5000/api/v1/image/fsdsdfsdfsdf')

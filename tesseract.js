@@ -9,6 +9,7 @@ const tesseract = async(img)=>{
   const ret = await worker.recognize(img);
   
   console.log(ret.data.text);
+  console.log(ret.data.text)
   return ret.data.text
   //   await worker.terminate();
 }
